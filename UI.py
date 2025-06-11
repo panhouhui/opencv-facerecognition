@@ -11,6 +11,7 @@ import os
 import re
 import numpy as np
 
+""" 注意：使用该项目：有几个位置需要修改：模型的文件路径需要修改你自己的，需要根据实际情况设置对应的阈值，下载项目的路径，不要出现中文，要不然会出好奇怪的错误  """
 
 # 加载 dlib 面部标志预测模型
 predictor_path = r"shape_predictor_68_face_landmarks.dat"  # 请替换为你本地的模型路径
